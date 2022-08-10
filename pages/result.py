@@ -1,4 +1,7 @@
 class DuckDuckGoResultPage:
+    RESULT_LINKS = (By.CSS_SELECTOR, 'a.result__a')
+    SEARCH_INPUT = (By.ID, 'search_from_input')
+
     def __init__(self,browser):
         self.browser=browser
 
