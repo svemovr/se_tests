@@ -1,3 +1,6 @@
+
+from selenium.webdriver.common.by import By
+
 class DuckDuckGoSearchPage:
     SEARCH_INPUT = (By.ID, 'search_form_input_homepage')
 
